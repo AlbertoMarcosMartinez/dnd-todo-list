@@ -1,0 +1,25 @@
+.task {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  transition: transform 0.2s ease;
+}
+
+.task:active {
+  cursor: grabbing;
+  background-color: #e0e0e0;
+}
+
+.ckeckbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-color: black;
+}
